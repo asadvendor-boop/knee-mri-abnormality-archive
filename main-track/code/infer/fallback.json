@@ -1,0 +1,35 @@
+{
+ "rule": "SUBMISSION_DESIGN v3/v4 A-115.3: the frozen empty-study fallback = mean SOFT label-A targets over the v2 training pool (gold 58 excluded); a constant, not clinical prevalence and not AUC-neutral",
+ "findings": [
+  "ACL",
+  "MCL",
+  "Medial Meniscus",
+  "Lateral Meniscus",
+  "Medial OA",
+  "Lateral OA",
+  "PF OA",
+  "Effusion",
+  "Synovitis",
+  "Baker's",
+  "Contusion",
+  "Fracture"
+ ],
+ "fallback": {
+  "ACL": 0.232507,
+  "MCL": 0.179249,
+  "Medial Meniscus": 0.459175,
+  "Lateral Meniscus": 0.223105,
+  "Medial OA": 0.406618,
+  "Lateral OA": 0.325615,
+  "PF OA": 0.483235,
+  "Effusion": 0.583939,
+  "Synovitis": 0.338315,
+  "Baker's": 0.356897,
+  "Contusion": 0.260076,
+  "Fracture": 0.182133
+ },
+ "pool_n": 4342,
+ "source": "data/ext_labels/stevenleehans_rsna-knee-llm-report-labels/llm_labels_v4_blend.csv",
+ "source_sha256": "eb4c2b29e7e84adbb4b5ccee825ca20ade6a43dbe295f13be442d549e4f5dca4",
+ "folds_sha256": "c329eb7d111bdb983eae7374b349dac6e150ab334e9d8d8254093b947e21ef3b"
+}
